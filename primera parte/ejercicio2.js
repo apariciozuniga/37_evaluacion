@@ -20,12 +20,20 @@ FIN
 
 */
 
-var nombreA = prompt("Dame un nombre");
-var nombreA = nombreA;
-var nombreB = prompt("Dame otro nombre");
-var nombreB = nombreB;
-var nombreC = prompt("Uno más");
-var nombreC = nombreC;
-var nombres = [nombreA, nombreB, nombreC]
-document.write("tus nombres son: " + nombres);
+// var nombreA = prompt("Dame un nombre");
+// var nombreA = nombreA;
+// var nombreB = prompt("Dame otro nombre");
+// var nombreB = nombreB;
+// var nombreC = prompt("Uno más");
+// var nombreC = nombreC;
+// var nombres = [nombreA, nombreB, nombreC]
+// document.write("tus nombres son: " + nombres);
 
+
+
+var nombres =[];
+for(i=0; i<=3; i++){
+	var nombres = prompt("dame un numero");
+	nombres.push(nombres);
+}
+console.log(nombres);
